@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: 'https://github.com/vinayvin22/mini-webapp-project.git'  // Replace with your GitHub repo URL
+        git url: 'https://github.com/vinayvin22/web_app.git'  // Replace with your GitHub repo URL
       }
     }
 
